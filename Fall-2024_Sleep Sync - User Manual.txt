@@ -1,0 +1,80 @@
+Sleep Sync - User Manual
+======================
+
+Getting Started
+--------------
+1. Launch the Sleep Sync app
+2. From the home screen, you can either:
+   - Select "Login" if you already have an account
+   - Select "Sign Up" to create a new account
+
+Creating an Account (Sign Up)
+---------------------------
+1. Enter your parent email address
+2. Create a password and confirm it
+3. Read and accept the Terms and Conditions
+4. Click "Sign Up"
+5. You'll be directed to set your sleep goals
+6. After setting goals, you'll return to the login screen
+
+Logging In
+---------
+As a Parent:
+1. Select "as Parent" at the top
+2. Enter your email and password
+3. Click "Login"
+4. Enter the verification code (for demo: use "1234")
+5. You'll be directed to the Parent Welcome Page
+
+As a Child:
+1. Select "for Child" at the top
+2. Enter your parent's email
+3. Click "Login"
+4. Enter the verification code sent to parent (for demo: use "1234")
+5. You'll be directed to the Game Welcome Screen
+
+Viewing Sleep Data (Parent Welcome Page)
+-------------------------------------
+1. Toggle between "Parent" and "Child" to view respective data
+2. Choose time frame:
+   - Last Night: Shows most recent sleep data
+   - Week: Shows the past 7 days
+   - Month: Shows the past 30 days
+3. View sleep analysis, charts, and personalized tips
+
+Adding Sleep Data
+---------------
+1. Click "+ Add Sleep" button
+2. Enter the date (YYYYMMDD format)
+3. Input sleep metrics:
+   - Total Sleep (hours)
+   - REM Sleep (hours)
+   - Core Sleep (hours)
+   - Deep Sleep (hours)
+   - Awake Time (hours)
+4. Click "Submit"
+
+Editing Sleep Data
+----------------
+1. Click "- Edit Sleep" button
+2. Find the entry you want to modify
+3. Click "Edit" on that entry
+4. Update the values
+5. Click "Submit"
+
+Deleting Sleep Data
+-----------------
+1. Click "- Edit Sleep" button
+2. Find the entry you want to remove
+3. Click "Delete" on that entry
+4. Confirm deletion
+
+Tips for Best Use
+---------------
+1. Enter sleep data consistently for better tracking
+2. Review sleep analysis regularly to identify patterns
+3. Follow the personalized sleep tips provided
+4. Keep track of both parent and child sleep patterns
+5. Use the charts to visualize sleep trends over time
+
+Note: For demonstration purposes, the verification code is always "1234". In a real deployment, this would be sent via email.
