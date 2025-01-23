@@ -14,6 +14,14 @@ if (-not (Get-Command npx -ErrorAction SilentlyContinue)) {
     exit
 }
 
+# Check if Expo CLI is installed globally
+if (-not (Get-Command expo -ErrorAction SilentlyContinue)) {
+    Write-Host "⚠️ Expo CLI is not installed. Installing now..." -ForegroundColor Yellow
+    npm install -g expo-cli
+} else {
+    Write-Host "✅ Expo CLI is installed: $(expo --version)" -ForegroundColor Cyan
+}
+
 # Navigate to project directory
 $ProjectPath = Get-Location
 Write-Host "Navigating to project directory: $ProjectPath" -ForegroundColor Cyan
