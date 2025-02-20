@@ -38,6 +38,7 @@ npx expo install @react-navigation/native-stack
 npx expo install react-native-screens
 npx expo install react-native-safe-area-context
 npx expo install react-native-gesture-handler
+npm install react-native-encrypted-storage
 
 # Ensure the latest version of dependencies
 Write-Host "Verifying and updating package versions..." -ForegroundColor Cyan
